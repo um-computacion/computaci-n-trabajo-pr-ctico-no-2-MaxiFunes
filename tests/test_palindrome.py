@@ -19,6 +19,19 @@ class TestPalindrome(unittest.TestCase):
         self.assertFalse(is_palindrome("hello"))
         self.assertFalse(is_palindrome("python"))
         self.assertFalse(is_palindrome("This is not a palindrome"))
+    def test_edge_cases(self):
+        self.assertTrue(is_palindrome(""))
+        self.assertTrue(is_palindrome("a"))
+        self.assertTrue(is_palindrome("A"))
+        self.assertTrue(is_palindrome("1"))
+        self.assertTrue(is_palindrome("1A2b3B2a1"))
+        self.assertFalse(is_palindrome("1A2b3B2a1!"))
+        self.assertFalse(is_palindrome("12345"))
+        self.assertFalse(is_palindrome("12321!"))
+        self.assertTrue(is_palindrome("12321"))
+        self.assertFalse(is_palindrome("12345"))
+        self.assertTrue(is_palindrome("12345654321"))
+        self.assertFalse(is_palindrome("123456789"))
 
 if __name__ == '__main__':
     unittest.main()
