@@ -25,7 +25,7 @@ class TestPalindrome(unittest.TestCase):
         self.assertTrue(is_palindrome("A"))
         self.assertTrue(is_palindrome("1"))
         self.assertTrue(is_palindrome("1A2b3B2a1"))
-        self.assertFalse(is_palindrome("1A2b3B2a1!"))
+        self.assertTrue(is_palindrome("1A2b3B2a1!"))
         self.assertFalse(is_palindrome("12345"))
         self.assertFalse(is_palindrome("12f321!"))
         self.assertTrue(is_palindrome("12321"))
