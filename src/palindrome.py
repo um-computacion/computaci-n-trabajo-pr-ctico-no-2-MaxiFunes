@@ -17,9 +17,15 @@ def is_palindrome(text):
     return resultado == resultado[::-1]
 
 if __name__ == "__main__":
+    try:
         while True:
-            entrada = input("Ingrese una palabra o frase: ")
+            entrada = input("Ingrese una palabra o frase (0 para salir): ")
+            if entrada == "0":
+                print("Programa finalizado.")
+                break
             if is_palindrome(entrada):
                 print(f'"{entrada}" es un palíndromo')
             else:
-                print(f'"{entrada}" no es un palíndromo. Su inverso es: "{entrada[::-1]}"')
+                print(f'"{entrada[::-1]}" no es un palíndromo. ' + entrada[::-1])    
+    except KeyboardInterrupt:
+        print("\nPrograma finalizado.")
