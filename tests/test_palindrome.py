@@ -32,6 +32,5 @@ class TestPalindrome(unittest.TestCase):
         self.assertFalse(is_palindrome("12345"))
         self.assertTrue(is_palindrome("12345654321"))
         self.assertFalse(is_palindrome("123456789"))
-
 if __name__ == '__main__':
     unittest.main()
