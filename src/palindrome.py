@@ -3,7 +3,7 @@ def is_palindrome(text):
     
     reemplazos = {
         'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u',
-        'ü': 'u', 'ñ': 'n', 'Á': 'a', 'É': 'e', 'Í': 'i', 'Ó': 'o', 'Ú': 'u',
+        'ü': 'u', 'ñ': 'n',
     }
     
     for acento, sin_acento in reemplazos.items():
@@ -18,7 +18,7 @@ def is_palindrome(text):
 
 if __name__ == "__main__":
         while True:
-            entrada = input("Ingrese una palabra o frase (0 para salir): ")
+            entrada = input("Ingrese una palabra o frase: ")
             if is_palindrome(entrada):
                 print(f'"{entrada}" es un palíndromo')
             else:
