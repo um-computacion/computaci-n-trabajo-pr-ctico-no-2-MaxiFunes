@@ -23,3 +23,12 @@ if __name__ == "__main__":
                 print(f'"{entrada}" es un palíndromo')
             else:
                 print(f'"{entrada}" no es un palíndromo. Su inverso es: "{entrada[::-1]}"')
+    return text == text[::-1]
+
+if __name__ == "__main__":
+    while True:
+        entrada = input("Ingrese una palabra o frase: ")
+        if is_palindrome(entrada):
+            print(f'"{entrada}" es un palíndromo.')
+        else:
+            print(f'"{entrada[::-1]}" no es un palíndromo.')    
