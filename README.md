@@ -1,9 +1,23 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/JovkJbhN)
 # Trabajo Práctico 2: Desarrollo Guiado por Pruebas (TDD) - Detector de Palíndromos
 
 ## Identificación del Alumno
 **Nombre y Apellido:** Maximo Funes
 
 **Nota:** Este trabajo práctico es de carácter individual. Cada alumno debe realizar su propia implementación y no se permite el trabajo en grupo.
+
+## Seguimiento
+
+1er milestone:
+   1-issue__ **Listo**
+   2-issue__ **Listo**
+   3-issue__ **Pendiente**
+   4-issue__ **Pendiente**
+2da Milestone:
+   5-issue__ **Pendiente**
+   6-issue__ **Pendiente**
+   7-issue__ **Pendiente**
+
 
 ## Objetivo
 Este trabajo práctico tiene como objetivo practicar el desarrollo guiado por pruebas (TDD) en Python, implementando un detector de palíndromos que pueda trabajar tanto con palabras como con frases.
